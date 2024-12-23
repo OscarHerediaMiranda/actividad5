@@ -5,9 +5,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body * {
-    outline: 1px solid red;
-}
+/* body * {
+    border: 1px solid red;
+} */
 
 body {
     min-height: 100vh;
@@ -46,6 +46,10 @@ body {
 
 .section {
     width: 50%;
+}
+
+.heading_item {
+    padding-left: 5%;
 }
 
 .titulo {
@@ -115,32 +119,43 @@ body {
 
 .footer {
     display: flex;
+    justify-content: space-between;
     padding: 20px 80px;
     background-color: #2f2f2f;
 }
 
 .lastestPost {
-    width: 33%;
+    width: 30%;
+}
+
+.lastestPost_item {
+    color: white;
 }
 
 .card_footer {
     display: flex;
+    margin-bottom: 10px;
+    align-items: center;
 }
 
-.item_titulo {
-    color: black;
-}
-
-.item_descripcion {
-    color: black;
+.item_lastestPost {
+    color: white;
 }
 
 .about {
-    width: 33%;
+    width: 30%;
+}
+
+.about_item {
+    color: white;
 }
 
 .stayConnected {
-    width: 33%;
+    width: 30%;
+}
+
+.stayConnected_item {
+    color: white;
 }
 
 .stayConnected_img {
@@ -149,37 +164,39 @@ body {
     width: 20%;
 }
 
-.facebook {
+.social {
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: start;
+    align-items: center;
     left: 10px;
     width: 60%;
+    column-gap: 20%;
 }
 
-.twitter {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 60%;
+.footer__title {
+    margin-bottom: 20px;
 }
 
-.rss {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 60%;
+.fecha {
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
 }
 
-.google {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 60%;
+.item_titulo {
+    margin-bottom: 10px;
+}
+
+.about_description {
+    color: white;
+}
+
+.about_subdescription {
+    color: white;
 }
 
 .text {
-    display: flex;
-    /* justify-content: start; */
-    /* align-content: center; */
+    color: white;
 }
