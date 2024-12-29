@@ -5,10 +5,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body * {
-    border: 1px solid red;
-} 
-
 body {
     display: flex;
     flex-direction: column;
@@ -16,6 +12,7 @@ body {
 }
 
 .header {
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +33,7 @@ body {
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    color: white;
 }
 
 .item {
@@ -81,6 +79,7 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .container_titulo {
@@ -106,4 +105,72 @@ body {
 
 .imagen_logo {
     width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.espaciado {
+    margin-bottom: 16px;
+}
+
+.latestPost {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+}
+
+.latestPost_items {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.fecha_item {
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 13%;
+    text-align: center;
+    background-color: white;
+}
+
+.mes {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.dia {
+    color: black;
+}
+
+.titulo_item {
+    margin-bottom: 2px;
+}
+
+.about {
+    color: white;
+    width: 30%;   
+}
+
+.about_parrafo_uno {
+    margin-bottom: 12px;
+}
+
+.stayConnected {
+    color: white;
+    width: 30%;
+}
+
+.figure {
+    display: flex;
+}
+
+.logo {
+    width: 10%;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
