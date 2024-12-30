@@ -120,6 +120,14 @@ body {
 }
 
 .footer {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 50px; */
+}
+
+.footer_contenedor {
     display: flex;
     justify-content: space-evenly;
     background-color: black;
@@ -190,3 +198,8 @@ body {
     margin-top: 5px;
 }
 
+.copyright {
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
