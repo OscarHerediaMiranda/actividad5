@@ -65,6 +65,7 @@ body {
     padding: 5px 12px;
     color: white;
     margin-top: 200px;
+    border: none;
 }
 
 .banner_figure {
@@ -83,7 +84,7 @@ body {
 }
 
 .container_titulo {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .cards {
@@ -96,21 +97,32 @@ body {
     width: 30%;
 } 
 
+.card_titulo {
+    margin-bottom: 12px;
+}
+
+.card_parrafo {
+    margin-bottom: 18px;
+}
+
 .card_button {
     background-color: #f99640;
     border-radius: 5px;
     padding: 5px 12px;
     color: white;
+    border: none;
 }
 
 .imagen_logo {
     width: 100%;
+    margin-bottom: 14px;
 }
 
 .footer {
     display: flex;
     justify-content: space-evenly;
     background-color: black;
+    padding: 50px;
 }
 
 .espaciado {
