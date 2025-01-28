@@ -11,6 +11,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -26,15 +27,11 @@ body {
     padding: 20px 80px;
 }
 
-.header_logo a{
-    text-decoration: none;
-}
-
-.header_navigation {
+.header__navigation {
     display: flex;
 }
 
-.header_items {
+.header__navigation__items {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,39 +39,37 @@ body {
     color: var(--white);
 }
 
-.item {
+.header__navigation__item {
     margin-left: 16px;
 }
 
-.section_banner {
+.banner {
     background-color: var(--white);
+    border: 1px solid yellow;
     display: flex;
     height: 50vh;
     margin-bottom: 60px;
 }
 
-.banner_descripcion {
+.banner__descripcion {
+    border: 1px solid red;
     width: 40%;
 }
 
-.banner_titulo {
-    margin-bottom: 18px;
-}
-
-.banner_parrafo_uno {
+.banner__parrafo__uno {
     margin-bottom: 15px;
 }
 
-.banner_button {
+.banner__button {
     background-color: var(--orange);
     border-radius: 5px;
     padding: 5px 12px;
     color: var(--white);
-    margin-top: 200px;
+    margin-top: 80px;
     border: none;
 }
 
-.banner_figure {
+.banner__figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,18 +77,18 @@ body {
     width: 60%;
 }
 
-.container_cards {
+.cards {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
 }
 
-.container_titulo {
+.cards__titulo {
     margin-bottom: 24px;
 }
 
-.cards {
+.cards__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,15 +98,15 @@ body {
     width: 30%;
 } 
 
-.card_titulo {
+.card__titulo {
     margin-bottom: 12px;
 }
 
-.card_parrafo {
+.card__parrafo {
     margin-bottom: 18px;
 }
 
-.card_button {
+.card__button {
     background-color: var(--orange);
     border-radius: 5px;
     padding: 5px 12px;
@@ -120,88 +115,71 @@ body {
     border: none;
 }
 
-.imagen_logo {
+.card__logo {
     width: 100%;
     margin-bottom: 14px;
 }
 
 .footer {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: black;
-    padding: 50px; */
-}
-
-.footer_contenedor {
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--black);
-    padding: 50px;
+    padding: 20px 80px;
+    background-color: #2f2f2f;
 }
 
-.espaciado {
-    margin-bottom: 16px;
+.latestPost__container {
+    /* justify-content: space-around; */
 }
 
-.latestPost {
+.latest-post__items {
     display: flex;
-    flex-direction: column;
-    width: 30%;
-    color: var(--white);
-}
-
-.latestPost_items {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-
-.fecha_item {
-    margin-right: 10px;
-    border-radius: 5px;
-    width: 13%;
-    text-align: center;
-    background-color: var(--white);
-}
-
-.mes {
-    color: var(--black);
-    margin-bottom: 5px;
-}
-
-.dia {
-    color: var(--black);
-}
-
-.titulo_item {
-    margin-bottom: 2px;
-}
-
-.about {
-    color: var(--white);
-    width: 30%;   
-}
-
-.about_parrafo_uno {
     margin-bottom: 12px;
 }
 
-.stayConnected {
+.latest-post__descripcion {
     color: var(--white);
-    width: 30%;
 }
 
-.figure {
-    align-items: center;
-    display: flex;
-}
-
-.logo {
-    width: 10%;
+.latest-post__fecha {
+    background-color: var(--white);
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
     margin-right: 10px;
+}
+
+.about__parrafo {
+    color: var(--white);
+}
+
+.stay-connected__logo {
+    width: 40px;
+    height: 40px;
+}
+
+.latest-post__titulo--modified, .about__titulo--modified, .stay-connected__titulo--modified {
+    margin-bottom: 18px;
+    margin-top: 20px;
+    color: var(--white);
+}
+
+.latest-post__descripcion__titulo {
+    margin-bottom: 5px;
+}
+
+.stay-connected__item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.stay-connected__logo {
     margin-bottom: 10px;
-    margin-top: 5px;
+    margin-right: 2px;
+}
+
+.stay-connected__texto {
+    color: var(--white);
 }
 
 .copyright {
