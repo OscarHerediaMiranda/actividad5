@@ -20,11 +20,16 @@ body {
 
 .header {
     background-color: var(--black);
+}
+
+.header__container {
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    padding: 20px 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header__navigation {
@@ -45,16 +50,26 @@ body {
 
 .banner {
     background-color: var(--white);
-    border: 1px solid yellow;
-    display: flex;
-    height: 50vh;
+    height: 60vh;
+    padding: 60px 0;
     margin-bottom: 60px;
 }
 
+.banner__container {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .banner__descripcion {
-    border: 1px solid red;
     width: 40%;
 }
+
+.banner__titulo {
+    margin-bottom: 20px;
+}
+
 
 .banner__parrafo__uno {
     margin-bottom: 15px;
@@ -63,18 +78,18 @@ body {
 .banner__button {
     background-color: var(--orange);
     border-radius: 5px;
-    padding: 5px 12px;
+    padding: 10px 15px;
     color: var(--white);
-    margin-top: 80px;
+    margin-top: 40px;
     border: none;
 }
 
 .banner__figure {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    width: 60%;
+}
+
+.figure__logo {
+    width: 100%;
 }
 
 .cards {
@@ -110,7 +125,6 @@ body {
     background-color: var(--orange);
     border-radius: 5px;
     padding: 5px 12px;
-    /* padding: 20px 12px; */
     color: var(--white);
     border: none;
 }
@@ -125,10 +139,6 @@ body {
     justify-content: space-evenly;
     padding: 20px 80px;
     background-color: #2f2f2f;
-}
-
-.latestPost__container {
-    /* justify-content: space-around; */
 }
 
 .latest-post__items {
